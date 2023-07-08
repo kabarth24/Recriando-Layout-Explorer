@@ -1,0 +1,97 @@
+body {
+  font-family: "JetBrains Mono", monospace;
+  background-color: #2c2b3d;
+  color: white;
+}
+
+.page {
+  width: 1280px;
+  height: 720px;
+  margin: auto;
+  align-items: center;
+}
+
+p {
+  color: #c2c2c2;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  width: 604px;
+  padding-top: 39px;
+}
+
+span {
+  color: #00bfa6;
+}
+
+nav {
+  padding-top: 71px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 98px;
+}
+
+#logo {
+  font-size: 24px;
+  padding-left: 101px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  gap: 64px;
+  font-size: 14px;
+}
+
+ul li a:hover {
+  color: #00bfa6;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  align-items: center;
+}
+
+h1 {
+  padding-top: 105px;
+  font-size: 36px;
+}
+
+#img1 {
+  padding-top: 109px;
+  padding-left: 99px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-right: 89px;
+  gap: 82px;
+}
+
+footer {
+  padding-top: 194px;
+  padding-left: 397px;
+}
+
+.rodape {
+  display: flex;
+  justify-content: center; /* Centralizar o conteúdo horizontalmente */
+  align-items: center; /* Centralizar o conteúdo verticalmente */
+  border-top: 1px solid;
+  border-color: #00bfa6;
+  width: 568px;
+  margin: 167px auto; /* Centralizar o rodapé na página */
+  text-align: center; /* Centralizar o texto no rodapé */
+  padding: 27px 0; /* Adicionar um espaçamento interno */
+}
+
+#lockedIcon {
+  bottom: 230px;
+  left: 390px;
+  position: fixed;
+}
